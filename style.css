@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #EEE8AA;
+	margin: 0;
+	padding: 0;
+}
+
+#landing {
+	background: url("img/fundoIndex.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+#logomarca {
+	padding-top: 10%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;  
+}
+
+li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li a {
+    display: block;
+    color: #EEE8AA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
